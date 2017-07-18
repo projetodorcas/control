@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/projetodorcas/control/msg"
+)
 
 func main() {
-	fmt.Print("Hi Dorcas")
+	fmt.Print(msg.Hi())
 }
